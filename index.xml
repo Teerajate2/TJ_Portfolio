@@ -1,55 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teerajate</title>
-    <link>https://github.com/Teerajate2/TJ_Portfolio/</link>
-    <description>Recent content on Teerajate</description>
+    <title>Data Science Portfolio on TJ</title>
+    <link>https://teerajate2.github.io/TJ_Portfolio/</link>
+    <description>Recent content in Data Science Portfolio on TJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/Teerajate2/TJ_Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://teerajate2.github.io/TJ_Portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cosmetic Product Development</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2-copy/</link>
+      <link>https://teerajate2.github.io/TJ_Portfolio/post/project2/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2-copy/</guid>
-      <description>The growing popularity of natural ingredient-based cosmetics, driven by consumer awareness of health and environmental benefits, has propelled a leading Toronto manufacturer to success in creating products for various brands and launching its own natural ingredient-focused line. This project aims to develop a data-driven model that recommends suitable natural ingredients for new cosmetic products based on customer ratings and reviews from Amazon. By utilizing the vast user-generated data on Amazon, the model will help the sponsor company understand consumer preferences, innovate highly desired products, and ultimately boost sales and customer satisfaction.</description>
-    </item>
-    
-    <item>
-      <title>Cosmetic Product Development</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2/</guid>
+      <guid>https://teerajate2.github.io/TJ_Portfolio/post/project2/</guid>
       <description>The growing popularity of natural ingredient-based cosmetics, driven by consumer awareness of health and environmental benefits, has propelled a leading Toronto manufacturer to success in creating products for various brands and launching its own natural ingredient-focused line. This project aims to develop a data-driven model that recommends suitable natural ingredients for new cosmetic products based on customer ratings and reviews from Amazon. By utilizing the vast user-generated data on Amazon, the model will help the sponsor company understand consumer preferences, innovate highly desired products, and ultimately boost sales and customer satisfaction.</description>
     </item>
     
     <item>
       <title>Kickstarter Projects Success Prediction</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/</link>
+      <link>https://teerajate2.github.io/TJ_Portfolio/post/project1/</link>
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/</guid>
+      <guid>https://teerajate2.github.io/TJ_Portfolio/post/project1/</guid>
       <description>Kickstarter is a popular crowdfunding platform that has enabled many individuals and organizations to bring their creative projects to life. Understanding the success factors of Kickstarter projects is crucial for both creators and investors, as it can help them make better decisions and increase their chances of success. Our study takes a step towards achieving this goal by exploring the effectiveness of different models in predicting the outcome of Kickstarter projects.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/about/</link>
+      <link>https://teerajate2.github.io/TJ_Portfolio/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/about/</guid>
+      <guid>https://teerajate2.github.io/TJ_Portfolio/about/</guid>
       <description>As a results-driven Data Analyst with over three years of experience, I bring a unique blend of technical and communication skills to the table. My expertise includes customer research, competitor analysis, and inventory forecasting. I have applied these skills to optimize sales data and customer purchase behavior, resulting in a 30% increase in annual sales.
 In my previous experience, I was fortunate to be part of the &amp;ldquo;Palent project&amp;rdquo;, where I utilized data to promote equity in parenting education and support children in a world of technology disruption.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/contact/</link>
+      <link>https://teerajate2.github.io/TJ_Portfolio/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/contact/</guid>
+      <guid>https://teerajate2.github.io/TJ_Portfolio/contact/</guid>
       <description>Follow me on these social media platforms.
 Platform URL Linkedin: http://www.linkedin.com/in/teerajate-v-120b7822b Github: https://github.com/Teerajate2 </description>
     </item>
