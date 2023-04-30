@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teerajate</title>
-    <link>https://github.com/Teerajate2/TJ_Portfolio/</link>
-    <description>Recent content on Teerajate</description>
+    <title>Projects on Teerajate</title>
+    <link>https://github.com/Teerajate2/TJ_Portfolio/en/post/</link>
+    <description>Recent content in Projects on Teerajate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/Teerajate2/TJ_Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://github.com/Teerajate2/TJ_Portfolio/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cosmetic Product Development</title>
       <link>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2-copy/</link>
@@ -32,26 +32,6 @@
       
       <guid>https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/</guid>
       <description>Kickstarter is a popular crowdfunding platform that has enabled many individuals and organizations to bring their creative projects to life. Understanding the success factors of Kickstarter projects is crucial for both creators and investors, as it can help them make better decisions and increase their chances of success. Our study takes a step towards achieving this goal by exploring the effectiveness of different models in predicting the outcome of Kickstarter projects.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/about/</guid>
-      <description>As a results-driven Data Analyst with over three years of experience, I bring a unique blend of technical and communication skills to the table. My expertise includes customer research, competitor analysis, and inventory forecasting. I have applied these skills to optimize sales data and customer purchase behavior, resulting in a 30% increase in annual sales.
-In my previous experience, I was fortunate to be part of the &amp;ldquo;Palent project&amp;rdquo;, where I utilized data to promote equity in parenting education and support children in a world of technology disruption.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://github.com/Teerajate2/TJ_Portfolio/en/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://github.com/Teerajate2/TJ_Portfolio/en/contact/</guid>
-      <description>Follow me on these social media platforms.
-Platform URL Linkedin: http://www.linkedin.com/in/teerajate-v-120b7822b Github: https://github.com/Teerajate2 </description>
     </item>
     
   </channel>

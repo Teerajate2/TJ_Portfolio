@@ -2,7 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com/Teerajate2/TJ_Portfolio/post/project2/</loc>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2-copy/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/post/project2/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -12,17 +22,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://github.com/Teerajate2/TJ_Portfolio/post/project1/</loc>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/</loc>
     <lastmod>2022-12-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://github.com/Teerajate2/TJ_Portfolio/post/</loc>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://github.com/Teerajate2/TJ_Portfolio/about/</loc>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -30,7 +40,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://github.com/Teerajate2/TJ_Portfolio/contact/</loc>
+    <loc>https://github.com/Teerajate2/TJ_Portfolio/en/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
