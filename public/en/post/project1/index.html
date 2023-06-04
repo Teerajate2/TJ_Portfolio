@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Kickstarter Projects Success Prediction | Teerajate</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Model selection for kickstarter project success prediction">
+    <meta name="generator" content="Hugo 0.111.3">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="https://github.com/Teerajate2/TJ_Portfolio/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Kickstarter Projects Success Prediction" />
+<meta property="og:description" content="Model selection for kickstarter project success prediction" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/" /><meta property="article:section" content="en" />
+<meta property="article:published_time" content="2022-12-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-12-13T00:00:00+00:00" />
+<meta itemprop="name" content="Kickstarter Projects Success Prediction">
+<meta itemprop="description" content="Model selection for kickstarter project success prediction"><meta itemprop="datePublished" content="2022-12-13T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-12-13T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1019">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kickstarter Projects Success Prediction"/>
+<meta name="twitter:description" content="Model selection for kickstarter project success prediction"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://github.com/Teerajate2/TJ_Portfolio/images/kickstarter_background.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://github.com/Teerajate2/TJ_Portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Teerajate
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/Teerajate2/TJ_Portfolio/en/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/Teerajate2/TJ_Portfolio/en/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/Teerajate2/TJ_Portfolio/en/" title="Data Science Portfolio page">
+              Data Science Portfolio
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="http://www.linkedin.com/in/teerajate-v-120b7822b" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/Teerajate2" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Kickstarter Projects Success Prediction</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Model selection for kickstarter project success prediction
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/Teerajate2/TJ_Portfolio/en/post/project1/&amp;title=Kickstarter%20Projects%20Success%20Prediction" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Kickstarter Projects Success Prediction</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-12-13T00:00:00Z">December 13, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Kickstarter is a popular crowdfunding platform that has enabled many individuals and organizations to bring their creative projects to life. Understanding the success factors of Kickstarter projects is crucial for both creators and investors, as it can help them make better decisions and increase their chances of success. Our study takes a step towards achieving this goal by exploring the effectiveness of different models in predicting the outcome of Kickstarter projects. Through this analysis, we aim to provide a comprehensive evaluation of the models and predictors that are most effective in predicting the success of Kickstarter projects.</p>
+<h2 id="dataset">Dataset</h2>
+<p>Our dataset, sourced from WebRobots.io, comprises information on 25,614 Kickstarter projects spanning from 2009 to 2022. The data encompasses a diverse range of business sectors, including Software, Graphic Novels, Pop, Fiction, Comedy, Product Design, Plays, Graphic Design, Events, and Webcomics.</p>
+<p>The dataset includes 40 columns, which consist of:</p>
+<figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/kickstarter_data_detail.png"/>
+</figure>
+
+<h2 id="data-preparation">Data Preparation</h2>
+<p>We began our analysis by examining the dataset for duplicates, which were subsequently removed. In terms of entropy, we eliminated features that were unique and inseparable, as these could complicate computations and potentially hinder predictions.</p>
+<p>To make the dataset more suitable for modeling, we manipulated features such as day_duration, week_duration, Year, Month, and Project_category. Using the Start and End dates, we calculated the total time taken to complete projects (day_duration and week_duration) by finding the difference between epoch values. Furthermore, we extracted the project&rsquo;s category from the original multi-feature category data and created a new field called &ldquo;Project_category&rdquo;.</p>
+<p>The dataset was sufficiently complete, with no missing or null values, allowing us to proceed with our analysis without further modifications.</p>
+<p>For data analysis, we used histograms to visualize feature distributions and boxplots to detect outliers. Outliers were identified in features such as pledged, goal, and backer_count. To retain potentially useful data, we addressed these outliers by defining acceptable boundary limits instead of deleting them.</p>
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<p>As part of our exploratory data analysis, we investigated the distribution of the target variable and identified that the &ldquo;Successful&rdquo; and &ldquo;Failed&rdquo; categories were the most common, while &ldquo;Canceled&rdquo; and &ldquo;Live&rdquo; had a lower frequency. We also examined the most prominent project categories and observed that &ldquo;Software&rdquo; and &ldquo;Comedy&rdquo; were the most prevalent, with most projects originating from the US and the UK.</p>
+<p><figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/category.png"/>
+</figure>
+<figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/balance.png"/>
+</figure>
+</p>
+<p>The correlation matrix aided in identifying the strength of relationships between features, enabling informed decisions on feature inclusion in our analysis. This understanding ensures our model makes predictions based on relevant and meaningful data.</p>
+<figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/correlationmatrix.png"/>
+</figure>
+
+<h2 id="decision-tree-model">Decision Tree Model</h2>
+<p>In our analysis, we employed a decision tree model with the Gini criterion and an initial depth level of three to investigate the impact of the &ldquo;Web&rdquo; category feature on project failure prediction. The results revealed that the &ldquo;Web&rdquo; category had a high prediction score of 98% for failure. However, the accuracy of the &ldquo;canceled&rdquo; category was low, and increasing the depth level risked overfitting. To address this issue, we utilized hyperparameter tuning with GridSearchCV, resulting in a maximum depth of 10, minimum samples per leaf of 1, and minimum samples per split of 5. Although the accuracy of the model improved, it still failed to identify the relationship between the &ldquo;canceled&rdquo; category and other categories. We considered sacrificing Recall for the &ldquo;canceled&rdquo; category but found that doing so would significantly impact the overall accuracy or F1 score, as indicated by the ROC and PR curves.</p>
+<figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/decisiontree_cfm.png"/>
+</figure>
+
+<h2 id="random-forest-model">Random Forest Model</h2>
+<p>We conducted a second analysis using Random Forest Classification to compare its performance with the Decision Tree model and identify the best-performing model. We began by analyzing the significance of features and selecting the top four features to use in the model, as shown in Figure 9.</p>
+<p>The Random Forest model produced a slight increase in accuracy by 1 percent, but the recall for the &ldquo;canceled&rdquo; category was almost 44%, which is a critical point to highlight.</p>
+<p>We compared the original and optimized Random Forest matrices, as shown in Figure 10, and found that shifting the confusion matrix to prioritize the &ldquo;canceled&rdquo; category would not result in a significant increase in precision and recall. In fact, it would lead to a much greater decrease in overall accuracy. Therefore, we opted to use the most optimal parameters for the Random Forest model.</p>
+<figure><img src="https://github.com/Teerajate2/TJ_Portfolio/images/decisiontree_cfm.png"/>
+</figure>
+
+<p>Overall, our analysis showed that Random Forest outperformed Decision Tree in terms of accuracy and recall for the &ldquo;canceled&rdquo; category. These findings provide valuable insights into the effectiveness of machine learning models in predicting the outcomes of Kickstarter projects.</p>
+<h2 id="other-models">Other Models</h2>
+<p>We also tested other machine learning models, including XGBoost, CatBoost and Gradient Boosting Machine (GBM), but found that their performance was not as good as Random Forest. We also explored using multiclass regression models, such as logistic regression, and applied L1 and L2 regularization to address multicollinearity issues. However, these models did not perform as well as Random Forest, especially in predicting the &ldquo;canceled&rdquo; class. Additionally, the models&rsquo; ability to predict success and failure was also not as accurate.</p>
+<h2 id="conclusion-and-recommendation">Conclusion and Recommendation</h2>
+<p>In conclusion, our thorough analysis recommends using the Random Forest model as the best choice for predicting project outcomes, as it achieves high accuracy across all categories, including the crucial &ldquo;canceled&rdquo; category. However, if stakeholders decide to disregard the &ldquo;canceled&rdquo; category, the CatBoost model emerges as the top choice due to its superior performance in predicting the two main categories (True and False).</p>
+<p>Companies seeking to forecast project success or failure can rely on our chosen models with an expected accuracy of around 98%-99%, providing valuable insights for decision-making. It is important to note that the &ldquo;canceled&rdquo; category might require separate consideration, as most models group it with the &ldquo;failed&rdquo; category, potentially affecting the model&rsquo;s accuracy.</p>
+<p>As the business environment evolves, the model may require periodic fine-tuning to maintain its predictive power. Furthermore, if stakeholders decide to focus solely on the two main categories, we recommend testing the entire dataset using the CatBoost model to determine the best possible outcome.</p>
+<p>By incorporating our recommendations and continually refining the chosen model, stakeholders can harness the power of machine learning to improve their decision-making processes and optimize their project strategies.</p>
+<p><a href="https://github.com/Teerajate2/kickstarter_proj">Link to GitHub Repository</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/Teerajate2/TJ_Portfolio/" >
+    &copy;  Teerajate 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="http://www.linkedin.com/in/teerajate-v-120b7822b" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/Teerajate2" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
