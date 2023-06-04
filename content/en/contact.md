@@ -15,3 +15,4 @@ Platform | URL
 --- | ---
 Linkedin:|  http://www.linkedin.com/in/teerajate-v-120b7822b
 Github:| https://github.com/Teerajate2
+Tableau: | https://public.tableau.com/app/profile/teerajate.vantanasiri3469

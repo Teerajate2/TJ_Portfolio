@@ -2,12 +2,12 @@
 date: 2023-02-15
 description: "Ingredient Recommender System for Cosmetic Product Development"
 featured_image: "/images/cosmetics_background.jpeg"
-title: "Cosmetic Product Development"
+title: "Cosmetic Product Development (ML)"
 ---
 
 The growing popularity of natural ingredient-based cosmetics, driven by consumer awareness of health and environmental benefits, has propelled a leading Toronto manufacturer to success in creating products for various brands and launching its own natural ingredient-focused line. This project aims to develop a data-driven model that recommends suitable natural ingredients for new cosmetic products based on customer ratings and reviews from Amazon. By utilizing the vast user-generated data on Amazon, the model will help the sponsor company understand consumer preferences, innovate highly desired products, and ultimately boost sales and customer satisfaction.
 
-## Dataset 
+### Dataset 
 
 My cosmetic product dataset is a comprehensive collection of information gathered through web scraping from Amazon, one of the largest online marketplaces. The original dataset contains 9,982 records and 97 columns, providing an extensive range of data points for each product.
 
@@ -28,7 +28,7 @@ My cosmetic product dataset is a comprehensive collection of information gathere
   
 * **Product Category:** The specific category under which the cosmetic product is listed on Amazon. This information can be used to group products and analyze trends within specific cosmetic categories.
 
-## Data Preparation 
+### Data Preparation 
 
 In the data preparation stage, I perform several essential steps to ensure that our cosmetic product dataset is clean, well-structured, and ready for analysis. This process involves labeling columns for better understanding, extracting features from the product descriptions, and creating target variables based on specific criteria.
 
@@ -40,7 +40,7 @@ In the data preparation stage, I perform several essential steps to ensure that 
   
 * **Target Variable Creation:** In order to identify and classify high-quality cosmetic products, we establish a set of criteria based on the number of reviews and the average rating. A product is considered "good" if it has more than 400 reviews and an average rating of more than 4. Using these criteria, we create a binary target variable for each product in the dataset, where 1 represents a "good" product and 0 represents a product that does not meet the criteria.
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 In the Exploratory Data Analysis (EDA) phase, we delve deeper into the dataset to uncover trends and patterns. Our investigation reveals the most frequently occurring ingredients, as well as the distribution of brands and the top-performing brands according to our criteria.
 
@@ -56,7 +56,7 @@ Top-Performing Brands: By applying our "good product" criteria, we identify the 
 
 {{< figure src="/images/top_productbrand.png">}}
 
-## Decision Tree Model
+### Decision Tree Model
 
 In this particular case, it's crucial to focus on minimizing false positives, as they can lead to the company investing significant resources in developing products that do not meet the "good product" criteria. Misclassifying a product as good when it's not can result in wasted resources and diminished customer satisfaction.
 
@@ -66,7 +66,7 @@ However, for this Decision Tree model, the precision we obtained is only 69%, wh
 
 {{< figure src="/images/decisiontree_cosmetic.png">}}
 
-## Random Forest Model
+### Random Forest Model
 
 Next, we employed the Random Forest model, utilizing 100 trees, to compare its performance with the Decision Tree model. The results showed an increase in precision to 73%, which is a notable improvement, while maintaining the overall accuracy at 94%. This demonstrates the effectiveness of the Random Forest model in enhancing the classification of our primary objective.
 
@@ -74,13 +74,13 @@ Although the Random Forest model yields better precision than the Decision Tree 
 
 {{< figure src="/images/randomforest_cosmetic.png">}}
 
-## XGboost Model
+### XGboost Model
 
 We then applied the XGBoost model to compare its performance with the previous models. The results show that the accuracy remained consistent at 94%, and the precision was slightly lower at 72%. However, the recall increased from 70% in the Random Forest model to 76% in the XGBoost model. Based on these metrics, XGBoost is considered the best model for our classification task among the models tested.
 
 {{< figure src="/images/xgboost_cosmetic.png">}}
 
-## Next Step
+### Next Step
 
 For future analysis, we aim to enhance our model's performance and accuracy through various approaches, making it even more valuable and reliable for business decision-making.
 

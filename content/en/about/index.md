@@ -7,7 +7,7 @@ menu:
   main:
     weight: 1
 ---
-{{< figure src="/images/IMG_4119.JPG" width="300" height="450" class="center">}}
+{{< figure src="/images/IMG_4119.JPG" width="300" height="300" class="center">}}
 
 As a results-driven Data Analyst with over three years of experience, I bring a unique blend of technical and communication skills to the table. My expertise includes customer research, competitor analysis, and inventory forecasting. I have applied these skills to optimize sales data and customer purchase behavior, resulting in a 30% increase in annual sales.
 
