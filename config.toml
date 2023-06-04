@@ -1,5 +1,5 @@
 title = "Teerajate"
-baseURL = "https://github.com/Teerajate2/TJ_Portfolio"
+baseURL = "https://teerajate2.github.io/TJ_Portfolio/"
 languageCode = "en-us"
 theme = "ananke"
 #resourceDir = "../resources"
@@ -40,6 +40,10 @@ url = "http://www.linkedin.com/in/teerajate-v-120b7822b"
 [[params.ananke_socials]]
 name = "github"
 url = "https://github.com/Teerajate2"
+
+[[params.ananke_socials]]
+name = "Tableau"
+url = "https://public.tableau.com/app/profile/teerajate.vantanasiri3469/"
 
 
 
