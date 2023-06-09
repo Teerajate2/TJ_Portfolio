@@ -35,6 +35,25 @@
     </item>
     
     <item>
+      <title>Forecasting Stock Prices Time Series Analysis (Excel: Moving Average, R: ARIMA)</title>
+      <link>https://teerajate2.github.io/TJ_Portfolio/post/project5/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://teerajate2.github.io/TJ_Portfolio/post/project5/</guid>
+      <description>Introduction The objective of this analysis is to do the forecasting analysis on the price of two companies ( Costco Wholesale company (COST) and Coca-Cola (KO) from the previous 252 data period. Performing by using three separate forecasting models:
+Exponential smoothing performed the short-term forecasting. Weight moving average to complete the long-term forecasting for the following four periods. ARIMA to make a long-term forecast for the next three months&amp;rsquo; stock price and to forecast the wine price for the next ten years in the dry_wine.</description>
+    </item>
+    
+    <item>
+      <title>Benefit-Cost Analysis of Dam Construction Projects (Excel: Monte Carlo Simulation &amp; Chi-Squared Test))</title>
+      <link>https://teerajate2.github.io/TJ_Portfolio/post/project4/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://teerajate2.github.io/TJ_Portfolio/post/project4/</guid>
+      <description>Introduction The purpose of this analysis is to apply benefit-cost analysis to two construction projects, Dam 1 in Southwest Georgia and Dam 2 in North Carolina, in order to support the corporation in determining which project provides the greatest benefit. By analyzing six benefit categories (improved navigation, hydroelectric power, fish and wildlife, recreation, flood control, and commercial development of the area), as well as two cost areas (Annualized capital cost and operations and maintenance).</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://teerajate2.github.io/TJ_Portfolio/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
