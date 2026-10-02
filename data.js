@@ -74,7 +74,60 @@ const RESUME = {
     },
   ],
 
+  // Side projects built with AI coding agents (shown with screenshots).
+  sideProjects: [
+    {
+      name: 'Tailland',
+      url: 'https://tailland.co.th',
+      linkLabel: 'Visit tailland.co.th',
+      image: 'images/tailland.jpg',
+      stack: ['Shopify', 'Thai / English'],
+      text: 'An online store for a family of dog and cat food brands, with Thai and English versions.',
+    },
+    {
+      name: 'GRE Vocab Trainer',
+      url: null, // add the live link here once it's public
+      image: 'images/gre-vocab.jpg',
+      stack: ['PostgreSQL', 'Supabase', 'JavaScript'],
+      text: 'A 1,000-word English–Thai study app with spaced repetition and mock exams. Progress syncs across devices through Postgres.',
+    },
+    {
+      name: 'เล่าให้หลับ · YouTube channel',
+      url: 'https://www.youtube.com/@LaoHaiLap',
+      linkLabel: 'Watch on YouTube',
+      image: 'images/youtube.jpg',
+      stack: ['AI agents', 'Video pipeline', 'Thai'],
+      text: 'Thai history stories for bedtime. An agent pipeline researches each story, writes the script and shot list, and renders the video.',
+    },
+  ],
 
+  // Earlier analytics and ML work. `image` is a screenshot; `art` picks a built-in illustration.
+  earlierWork: [
+    {
+      name: 'Northwind Traders Dashboard',
+      stack: ['Tableau', 'BigQuery'],
+      text: 'An executive KPI dashboard covering sales trends, products, top customers and shipping costs.',
+      image: 'images/northwind.jpg',
+      url: 'https://public.tableau.com/app/profile/teerajate.vantanasiri3469/viz/NorthwindTraders_16858295646040/Dashboard1',
+      linkLabel: 'View dashboard',
+    },
+    {
+      name: 'Kickstarter Success Prediction',
+      stack: ['Python', 'Random Forest', 'CatBoost'],
+      text: 'Compared ML models to predict the outcome of 25,000+ Kickstarter projects.',
+      art: 'tree',
+      url: 'https://github.com/Teerajate2/kickstarter_proj',
+      linkLabel: 'View on GitHub',
+    },
+    {
+      name: 'Cosmetic Ingredient Insights',
+      stack: ['Python', 'Web scraping', 'XGBoost'],
+      text: 'Scraped ~10,000 Amazon cosmetic listings to find the ingredients behind top-rated products.',
+      art: 'molecule',
+      url: 'https://github.com/Teerajate2/productdev_proj',
+      linkLabel: 'View on GitHub',
+    },
+  ],
 
   education: [
     { school: 'Chulalongkorn University', place: 'Bangkok, Thailand', degree: 'B.E. Information Engineering', start: '2013-06', end: '2018-01' },

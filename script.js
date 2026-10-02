@@ -254,9 +254,59 @@ const skillObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.2 });
 $$('.skill-card').forEach(c => skillObserver.observe(c));
 
+/* ---------- Projects ---------- */
+const PROJECT_ART = {
+  tree: `
+    <path class="draw" d="M80 16 V34 M80 34 L48 52 M80 34 L112 52 M48 52 L32 72 M48 52 L64 72 M112 52 L128 72" stroke="url(#G)"/>
+    <circle class="node" cx="80" cy="16" r="7"/><circle class="node" cx="48" cy="52" r="7"/><circle class="node" cx="112" cy="52" r="7"/>
+    ${[32, 64, 128].map((x, i) => `<circle class="leaf" style="animation-delay:${i * .4}s; fill:url(#G)" cx="${x}" cy="74" r="6"/>`).join('')}`,
+  molecule: `
+    <path d="M52 48 L80 32 L108 48 M80 32 V12 M52 48 L44 74 M108 48 L118 74 M52 48 L108 48" stroke="url(#G)" opacity=".55"/>
+    ${[[80, 32, 9], [52, 48, 7], [108, 48, 7], [80, 12, 5], [44, 74, 6], [118, 74, 6]].map(([x, y, r], i) =>
+      `<circle class="neuron" style="animation-delay:${i * .25}s" cx="${x}" cy="${y}" r="${r}" fill="url(#G)"/>`).join('')}`,
+};
+
+const svgArt = (markup, id) => `
+  <svg viewBox="0 0 160 90" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--accent)"/><stop offset="1" style="stop-color:var(--accent-2)"/>
+    </linearGradient></defs>
+    ${markup.replace(/url\(#G\)/g, `url(#${id})`)}
+  </svg>`;
+
+const hostOf = url => url ? url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') : 'private app';
+
+$('#sideProjects').innerHTML = RESUME.sideProjects.map((p, i) => `
+  <article class="shot-card" style="--d:${i * 90}ms">
+    <div class="shot-card__frame">
+      <div class="shot-card__bar"><span class="job-card__dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="shot-card__url mono">${esc(hostOf(p.url))}</span></div>
+      <div class="shot-card__img"><img src="${esc(p.image)}" alt="Screenshot of ${esc(p.name)}" loading="lazy"></div>
+    </div>
+    <div class="shot-card__body">
+      <h4>${esc(p.name)}</h4>
+      <p class="muted">${esc(p.text)}</p>
+      <div class="tags">${p.stack.map(s => `<span class="tag">${esc(s)}</span>`).join('')}</div>
+      ${p.url ? `<a class="btn btn--small btn--outline shot-card__link" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.linkLabel || 'Visit site')} ↗</a>` : ''}
+    </div>
+  </article>`).join('');
+
+$('#earlierWork').innerHTML = RESUME.earlierWork.map((p, i) => `
+  <a class="mini-card" style="--d:${i * 80}ms" href="${esc(p.url)}" target="_blank" rel="noopener">
+    <div class="mini-card__thumb">
+      ${p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : svgArt(PROJECT_ART[p.art] || '', `pa${i}`)}
+    </div>
+    <div class="mini-card__body">
+      <h4>${esc(p.name)}</h4>
+      <p class="muted small">${esc(p.text)}</p>
+      <p class="mini-card__meta"><span class="mono small muted">${p.stack.map(esc).join(' · ')}</span><span class="mini-card__go">${esc(p.linkLabel)} ↗</span></p>
+    </div>
+  </a>`).join('');
+
+$$('.shot-card, .mini-card').forEach(c => skillObserver.observe(c));
+
 // Spotlight that follows the cursor
-$('#skillGrid').addEventListener('pointermove', e => {
-  const card = e.target.closest('.skill-card');
+document.addEventListener('pointermove', e => {
+  const card = e.target.closest?.('.skill-card, .shot-card, .mini-card');
   if (!card) return;
   const r = card.getBoundingClientRect();
   card.style.setProperty('--mx', `${e.clientX - r.left}px`);
