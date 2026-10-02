@@ -1,349 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>My Projects | TJ</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Hi! My name is Teerajate Vantanasiri (TJ)">
-    <meta name="generator" content="Hugo 0.112.7">
-    
-    <meta name="keywords" content="Teerajate Vantanasiri, Teerajate, Vantanasiri, TJ Vantanasiri, TJ">
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teerajate Vantanasiri — Data Engineer</title>
+  <meta name="description" content="Teerajate Vantanasiri — Data Engineer at The Walt Disney Company. PySpark, Databricks, SQL, data modeling and data quality." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Apply the saved theme before first paint so the page doesn't flash.
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
 
-    
-<link rel="stylesheet" href="https://teerajate2.github.io/TJ_Portfolio/ananke/css/main.min.css" >
+  <a class="skip-link" href="#experience">Skip to experience</a>
 
-
-
-    
-    
-    
-      
-<link rel="shortcut icon" href="https://teerajate2.github.io/TJ_Portfolio/images/favicon.png" type="image/x-icon" />
-
-
-    
-
-    
-    
-      <link href="https://teerajate2.github.io/TJ_Portfolio/index.xml" rel="alternate" type="application/rss+xml" title="TJ" />
-      <link href="https://teerajate2.github.io/TJ_Portfolio/index.xml" rel="feed" type="application/rss+xml" title="TJ" />
-      
-    
-    
-    <meta property="og:title" content="My Projects" />
-<meta property="og:description" content="Hi! My name is Teerajate Vantanasiri (TJ)" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://teerajate2.github.io/TJ_Portfolio/" />
-<meta itemprop="name" content="My Projects">
-<meta itemprop="description" content="Hi! My name is Teerajate Vantanasiri (TJ)"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Projects"/>
-<meta name="twitter:description" content="Hi! My name is Teerajate Vantanasiri (TJ)"/>
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-
-  
-  <header class="cover bg-top" style="background-image: url('https://static.global-learning-development.com/wp-content/uploads/2021/06/11105557/GettyImages-1206796363-scaled.jpg');">
-    <div class="bg-black-60">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="https://teerajate2.github.io/TJ_Portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        TJ
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="https://teerajate2.github.io/TJ_Portfolio/about/" title="About page">
-              About
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="https://teerajate2.github.io/TJ_Portfolio/contact/" title="Contact page">
-              Contact
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="https://teerajate2.github.io/TJ_Portfolio/post/" title="Projects page">
-              Projects
-            </a>
-          </li>
-          
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Back to top">
+        <span class="nav__logo-mark">TV</span>
+        <span class="nav__logo-text">Teerajate Vantanasiri</span>
+      </a>
+      <nav aria-label="Sections">
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#experience" class="nav__link">Experience</a></li>
+          <li><a href="#skills"     class="nav__link">Skills</a></li>
+          <li><a href="#query"      class="nav__link">SQL demo</a></li>
+          <li><a href="#contact"    class="nav__link">Contact</a></li>
         </ul>
-      
-      
-<div class="ananke-socials">
-  
-    
-    <a href="https://www.linkedin.com/in/teerajatevantanasiri/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-      
-        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://github.com/Teerajate2" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-      
-        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
-</svg>
-</span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://public.tableau.com/app/profile/teerajate.vantanasiri3469/" target="_blank" rel="noopener" class="Tableau ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Tableau link" aria-label="follow on Tableau——Opens in a new window">
-      
-        <span class="icon"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="480px" height="480px"><path d="M 11.5 2 L 11.5 3.5 L 10 3.5 L 10 4.5 L 11.5 4.5 L 11.5 6 L 12.5 6 L 12.5 4.5 L 14 4.5 L 14 3.5 L 12.5 3.5 L 12.5 2 L 11.5 2 z M 6 4 L 6 6 L 4 6 L 4 7 L 6 7 L 6 9 L 7 9 L 7 7 L 9 7 L 9 6 L 7 6 L 7 4 L 6 4 z M 17 4 L 17 6 L 15 6 L 15 7 L 17 7 L 17 9 L 18 9 L 18 7 L 20 7 L 20 6 L 18 6 L 18 4 L 17 4 z M 11 8 L 11 11 L 8 11 L 8 13 L 11 13 L 11 16 L 13 16 L 13 13 L 16 13 L 16 11 L 13 11 L 13 8 L 11 8 z M 3.5 10 L 3.5 11.5 L 2 11.5 L 2 12.5 L 3.5 12.5 L 3.5 14 L 4.5 14 L 4.5 12.5 L 6 12.5 L 6 11.5 L 4.5 11.5 L 4.5 10 L 3.5 10 z M 19.5 10 L 19.5 11.5 L 18 11.5 L 18 12.5 L 19.5 12.5 L 19.5 14 L 20.5 14 L 20.5 12.5 L 22 12.5 L 22 11.5 L 20.5 11.5 L 20.5 10 L 19.5 10 z M 6 15 L 6 17 L 4 17 L 4 18 L 6 18 L 6 20 L 7 20 L 7 18 L 9 18 L 9 17 L 7 17 L 7 15 L 6 15 z M 17 15 L 17 17 L 15 17 L 15 18 L 17 18 L 17 20 L 18 20 L 18 18 L 20 18 L 20 17 L 18 17 L 18 15 L 17 15 z M 11.5 18 L 11.5 19.5 L 10 19.5 L 10 20.5 L 11.5 20.5 L 11.5 22 L 12.5 22 L 12.5 20.5 L 14 20.5 L 14 19.5 L 12.5 19.5 L 12.5 18 L 11.5 18 z"/></svg></span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          My Projects
-        </h1>
-        
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            Hi! My name is Teerajate Vantanasiri (TJ)
-          </h2>
-        
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Switch color theme" title="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="btn btn--small btn--primary" data-open-resume>Resume</button>
+        <button class="icon-btn nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
+  <main id="top">
 
-    <main class="pb7" role="main">
-      
- <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    
-  </article>
-  
-  
-  
-  
-  
-  
-  
-    
-    
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-       
-          <h1 class="flex-none">
-            Recent Projects
-          </h1>
-        
-
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project2/" class="db grow">
-            <img src="https://teerajate2.github.io/TJ_Portfolio/images/cosmetics_background.jpeg" class="img" alt="image from Cosmetic Product Development (ML)">
-          </a>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow"><span class="status-dot"></span> Open to data engineering roles</p>
+          <h1 class="hero__name">Teerajate<br><span class="grad">Vantanasiri</span></h1>
+          <p class="hero__role">Data Engineer at The Walt Disney Company · Los Angeles</p>
+          <p class="hero__lede">I build reliable data models, quality checks and data products with PySpark, SQL and Databricks.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary" data-open-resume>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg>
+              View resume
+            </button>
+            <a class="btn btn--outline" href="mailto:vantanasiri.t@gmail.com">Email me</a>
+          </div>
         </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project2/" class="color-inherit dim link">
-            Cosmetic Product Development (ML)
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          The growing popularity of natural ingredient-based cosmetics, driven by consumer awareness of health and environmental benefits, has propelled a leading Toronto manufacturer to success in creating products for various brands and launching its own natural ingredient-focused line. This project aims to develop a data-driven model that recommends suitable natural ingredients for new cosmetic products based on customer ratings and reviews from Amazon. By utilizing the vast user-generated data on Amazon, the model will help the sponsor company understand consumer preferences, innovate highly desired products, and ultimately boost sales and customer satisfaction.
+
+        <!-- Simulated job run -->
+        <div class="job-card" aria-label="Animated example of a daily data pipeline run">
+          <div class="job-card__head">
+            <span class="job-card__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="job-card__name mono">daily_pipeline</span>
+            <span class="badge" id="jobStatus">queued</span>
+          </div>
+          <ol class="job-tasks" id="jobTasks"></ol>
+          <button class="link-btn job-card__replay" id="jobReplay">Run again ↻</button>
         </div>
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
+      </div>
+
+      <div class="container">
+        <dl class="kpis" id="kpis">
+          <div class="kpi"><dt>Years in data</dt><dd><span data-count="6">6</span></dd></div>
+          <div class="kpi"><dt>Sources unified</dt><dd><span data-count="13">13</span></dd></div>
+          <div class="kpi"><dt>Tables migrated</dt><dd><span data-count="200">200</span>+</dd></div>
+          <div class="kpi"><dt>Faster queries</dt><dd><span data-count="40">40</span>%</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-tag">Experience</p>
+          <h2 class="section-title">Where I've worked</h2>
+        </header>
+
+        <div class="filter" role="group" aria-label="Highlight experience by skill" id="skillFilter"></div>
+        <ol class="timeline" id="timeline"></ol>
+
+        <div class="edu" id="education"></div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-tag">Skills</p>
+          <h2 class="section-title">What I work with</h2>
+        </header>
+        <div class="bento" id="skillGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SQL CONSOLE ============ -->
+    <section class="section" id="query">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-tag">SQL demo</p>
+          <h2 class="section-title">Query my resume</h2>
+          <p class="section-sub">My resume as a live SQLite database. Pick a question or write your own SQL.</p>
+        </header>
+
+        <div class="console">
+          <div class="console__presets" id="presets" role="group" aria-label="Example queries"></div>
+          <div class="console__window">
+            <div class="console__bar">
+              <span class="job-card__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="mono small muted">resume.db</span>
+            </div>
+            <label for="sqlInput" class="visually-hidden">SQL query</label>
+            <textarea id="sqlInput" class="console__input mono" spellcheck="false" rows="5"></textarea>
+            <div class="console__run">
+              <span class="muted small mono">tables: experience · highlights · highlight_skills · skills</span>
+              <button class="btn btn--small btn--primary" id="sqlRun" disabled>Loading…</button>
+            </div>
+            <div class="console__out" id="sqlOut" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2 class="cta__title">Let's talk.</h2>
+            <p class="cta__sub">Open to data engineering roles. Email is the fastest way to reach me.</p>
+          </div>
+          <div class="cta__actions">
+            <div class="copy-row">
+              <a class="copy-row__value" href="mailto:vantanasiri.t@gmail.com">vantanasiri.t@gmail.com</a>
+              <button class="btn btn--small btn--light" id="copyEmail">Copy</button>
+            </div>
+            <div class="cta__links" id="contactLinks"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Teerajate Vantanasiri</p>
+      <a class="muted" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- ============ ONE-PAGE RESUME ============ -->
+  <dialog class="resume-dialog" id="resumeDialog" aria-labelledby="resumeName">
+    <div class="resume-dialog__bar">
+      <span class="muted small">Resume</span>
+      <div class="resume-dialog__actions">
+        <button class="btn btn--small btn--primary" id="printResume">Save as PDF</button>
+        <button class="icon-btn" id="closeResume" aria-label="Close resume">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
       </div>
     </div>
-  </div>
-</article>
+    <article class="sheet" id="resumeSheet"></article>
+  </dialog>
 
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project3/" class="db grow">
-            <img src="https://teerajate2.github.io/TJ_Portfolio/images/NorthwindTraders1.png" class="img" alt="image from Northwind Traders Dashboard (Tableau &amp; BigQuery)">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project3/" class="color-inherit dim link">
-            Northwind Traders Dashboard (Tableau &amp; BigQuery)
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Utilizing Tableau&rsquo;s robust visualization capabilities, a comprehensive Key Performance Indicator (KPI) dashboard was developed for Northwind Traders. Northwind Traders is an international import and export company, specializing in providing high-quality food products to a broad spectrum of businesses across the globe. The objective of the dashboard was to offer a rapid understanding of the company&rsquo;s performance in crucial areas, such as sales trends, product performance, principal clients, and shipping costs. Designed to accommodate and evolve with the influx of new data, the dashboard promises dynamic and timely insights for the executive team.
-        </div>
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project1/" class="db grow">
-            <img src="https://teerajate2.github.io/TJ_Portfolio/images/kickstarter_background.png" class="img" alt="image from Kickstarter Projects Success Prediction (ML)">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project1/" class="color-inherit dim link">
-            Kickstarter Projects Success Prediction (ML)
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Kickstarter is a popular crowdfunding platform that has enabled many individuals and organizations to bring their creative projects to life. Understanding the success factors of Kickstarter projects is crucial for both creators and investors, as it can help them make better decisions and increase their chances of success. Our study takes a step towards achieving this goal by exploring the effectiveness of different models in predicting the outcome of Kickstarter projects.
-        </div>
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/project1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-      </section>
-
-      
-      <section class="w-100">
-        <h1 class="f3">More</h1>
-        
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://teerajate2.github.io/TJ_Portfolio/post/project5/" class="link black dim">
-              Forecasting Stock Prices Time Series Analysis (Excel: Moving Average, R: ARIMA)
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://teerajate2.github.io/TJ_Portfolio/post/project4/" class="link black dim">
-              Benefit-Cost Analysis of Dam Construction Projects (Excel: Monte Carlo Simulation &amp; Chi-Squared Test))
-            </a>
-          </h2>
-        
-
-        
-        
-          <a href="https://teerajate2.github.io/TJ_Portfolio/post/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Projects</a>
-        
-        </section>
-      
-
-      </div>
-  
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://teerajate2.github.io/TJ_Portfolio/" >
-    &copy;  TJ 2023 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-    
-    <a href="https://www.linkedin.com/in/teerajatevantanasiri/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-      
-        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://github.com/Teerajate2" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-      
-        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
-</svg>
-</span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://public.tableau.com/app/profile/teerajate.vantanasiri3469/" target="_blank" rel="noopener" class="Tableau ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Tableau link" aria-label="follow on Tableau——Opens in a new window">
-      
-        <span class="icon"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="480px" height="480px"><path d="M 11.5 2 L 11.5 3.5 L 10 3.5 L 10 4.5 L 11.5 4.5 L 11.5 6 L 12.5 6 L 12.5 4.5 L 14 4.5 L 14 3.5 L 12.5 3.5 L 12.5 2 L 11.5 2 z M 6 4 L 6 6 L 4 6 L 4 7 L 6 7 L 6 9 L 7 9 L 7 7 L 9 7 L 9 6 L 7 6 L 7 4 L 6 4 z M 17 4 L 17 6 L 15 6 L 15 7 L 17 7 L 17 9 L 18 9 L 18 7 L 20 7 L 20 6 L 18 6 L 18 4 L 17 4 z M 11 8 L 11 11 L 8 11 L 8 13 L 11 13 L 11 16 L 13 16 L 13 13 L 16 13 L 16 11 L 13 11 L 13 8 L 11 8 z M 3.5 10 L 3.5 11.5 L 2 11.5 L 2 12.5 L 3.5 12.5 L 3.5 14 L 4.5 14 L 4.5 12.5 L 6 12.5 L 6 11.5 L 4.5 11.5 L 4.5 10 L 3.5 10 z M 19.5 10 L 19.5 11.5 L 18 11.5 L 18 12.5 L 19.5 12.5 L 19.5 14 L 20.5 14 L 20.5 12.5 L 22 12.5 L 22 11.5 L 20.5 11.5 L 20.5 10 L 19.5 10 z M 6 15 L 6 17 L 4 17 L 4 18 L 6 18 L 6 20 L 7 20 L 7 18 L 9 18 L 9 17 L 7 17 L 7 15 L 6 15 z M 17 15 L 17 17 L 15 17 L 15 18 L 17 18 L 17 20 L 18 20 L 18 18 L 20 18 L 20 17 L 18 17 L 18 15 L 17 15 z M 11.5 18 L 11.5 19.5 L 10 19.5 L 10 20.5 L 11.5 20.5 L 11.5 22 L 12.5 22 L 12.5 20.5 L 14 20.5 L 14 19.5 L 12.5 19.5 L 12.5 18 L 11.5 18 z"/></svg></span>
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js" defer onload="initSql()" onerror="sqlFailed()"></script>
+</body>
 </html>
